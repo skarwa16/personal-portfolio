@@ -15,7 +15,7 @@
   --color-bg-variant: #F7EDE2; 
   --color-primary: #84A59D; 
   --color-primary-variant: #68807A; 
-  --color-secondary: #F28482; 
+  --color-secondary: #EEDBCF; 
   --color-white: #FFFFFF; 
   --color-black: #000000; 
 
@@ -54,24 +54,47 @@ h1, h2, h3, h4, h5 {
 
 h1 {
   font-size: 2.5rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 2rem; 
+  font-weight: 400; 
+}
+
+h3{
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+h4{
+  font-size: 1.5rem;
+}
+
+h5{
+  font-size: 1.4rem;
+}
+
+.p{
+  font-size: 1.35rem;
 }
 
 /** Each portion (WorkEx, Navbar etc) is wrapped in it's own "Section" **/
-section {
+/* section {
   margin-top: 8rem;
-}
+} */
 
 .text-light {
   color: var(--color-primary-variant)
 }
 
 a {
-  color: var(--color-primary); 
+  color: var(--color-black); 
   transition: var(--transition); 
 }
 
 a:hover {
-  color: var(--color-white); 
+  color: var(--color-primary); 
 }
 
 .btn {
@@ -109,9 +132,37 @@ img {
     width: var(--container-width-md); 
   }
 
-  .section {
+  /* .section {
     margin-top: 6rem;
+  } */
+
+  h1 {
+    font-size: 2rem;
+    font-weight: 600;
   }
+  
+  h2 {
+    font-size: 1.8rem; 
+    font-weight: 400; 
+  }
+  
+  h3{
+    font-size: 1.7rem;
+    font-weight: 400;
+  }
+  
+  h4{
+    font-size: 1.4rem;
+  }
+  
+  h5{
+    font-size: 1.3rem;
+  }
+  
+  .p{
+    font-size: 1.2rem;
+  }
+  
 
 }
 
@@ -120,6 +171,33 @@ img {
 @media screen and (max-width: 600px){
   .container{
     width: var(--container-width-sm); 
+  }
+
+  h1 {
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  
+  h2 {
+    font-size: 1.6rem; 
+    font-weight: 400; 
+  }
+  
+  h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+  
+  h4{
+    font-size: 1.3rem;
+  }
+  
+  h5{
+    font-size: 1.2rem;
+  }
+  
+  .p{
+    font-size: 1.15rem;
   }
 
   /* .section {

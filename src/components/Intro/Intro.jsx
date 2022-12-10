@@ -3,11 +3,16 @@ import './intro.css';
 
 const Intro = () => {
   return(
-      <div className="introduction introduction-container">
-          <h1><span role="img" aria-label="hi">👋🏻</span> Hi! I'm Soumya!</h1>
-          <h2>I'm a product designer passionate about creating intuitive, engaging solutions</h2>
-          <h2>Currently, I'm a senior @Brown University studying Applied Mathematics-Computer Science looking for my next opportunity!</h2>
-     </div>
+      <section className="introduction introduction-container">
+          <div className="text-container">
+            <h1 className="text-child"><span role="img" aria-label="hi">👋🏻</span> Hi! I'm Soumya!</h1>
+            <h2 className="text-child">I'm a Product Designer passionate about creating intuitive, engaging solutions</h2>
+            <h2 className="text-child">Currently, I'm a senior <span style={{color: 'var(--color-secondary)'}}>@Brown University </span> studying Applied Mathematics-Computer Science looking for my next opportunity! </h2>
+          </div>
+          <div className="scroll-below introduction-child">
+            <a href="#workEx"><h3 className="scroll-below">Check out some of my work  <span role="img" aria-label="scroll-down">⬇️</span></h3></a>
+          </div>         
+     </section>
      )
 }
 
