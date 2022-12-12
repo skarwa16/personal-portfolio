@@ -23,9 +23,9 @@ const WorkEx = () => {
           </div>
           <div className="row-1">
             <div className="image-container">
-              <img src={BarsaatBanner} alt="Campfire Banner"></img>
+            <a href="/campfire"><img src={BarsaatBanner} alt="Campfire Banner"></img>
               <h2 className="image-child project-heading">Campfire</h2>
-              <h4 className="image-child project-description">Redesigning BeauMonde Towers’ Website</h4>
+              <h4 className="image-child project-description">Redesigning BeauMonde Towers’ Website</h4></a>
             </div>
             <div className="image-container">
               <img src={BarsaatBanner} alt="Web Control of Real Time Systems"></img>

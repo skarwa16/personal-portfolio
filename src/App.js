@@ -6,6 +6,7 @@ import Navbar from './components/Navbar/Navbar'
 import Footer from "./components/Footer/Footer"
 import BeauMonde from "./components/Projects/BeauMonde/BeauMonde"
 import Barsaat from "./components/Projects/Barsaat/Barsaat"
+import Campfire from "./components/Projects/Campfire/Campfire"
 
 function App() {
   
@@ -22,8 +23,10 @@ function App() {
       component = <BeauMonde/>
       break
     case "/barsaat":
-      console.log("Barsaat")
       component = <Barsaat/>
+      break
+      case "/campfire":
+      component = <Campfire/>
       break
   }
 

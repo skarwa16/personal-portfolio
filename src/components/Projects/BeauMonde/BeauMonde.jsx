@@ -1,12 +1,11 @@
 import * as React from 'react';
 import "../../Projects/projects.css";
 import BeauMondeBanner from '../../../assets/BeauMonde/Banner.png'; 
-import BeauMondeProblem from '../../../assets/BeauMonde/ProblemGraphic.png'
 import BeauMondeResearch from '../../../assets/BeauMonde/Research.png'
 import BeauMondeBeforevAfter from '../../../assets/BeauMonde/beforevafter.png'
 import BeauMondeFinalFrame from '../../../assets/BeauMonde/FinalFrame.png'
 import BeauMondeLogos from '../../../assets/BeauMonde/Logos.png'
-import BeauMondePainPoints from '../../../assets/BeauMonde/PainPoints.png'
+import Iteration3 from '../../../assets/BeauMonde/final.gif'
 import Card from '../../../../node_modules/@mui/material/Card'
 
 function BeauMonde() {
@@ -202,6 +201,11 @@ function BeauMonde() {
                 <h5 className="body-text"><span role="img" aria-label="hi">✅</span> Goal 1: Visual, descriptive & easy-to-use Amenities section</h5>
                 <h5 className="body-text"><span role="img" aria-label="hi">❌</span> Goal 2: Community page highlighting BeauMonde’s “it” factor</h5>
                 <h5 className="body-text"><span role="img" aria-label="hi">❌</span> Goal 3: Accessible Availabilities section</h5>
+                        
+                <div className="gif-container">
+                    <img src={Iteration3} className="gif"></img>
+                </div>
+                
                 {/* insert gif / video for iteration 1 */}
                 <h5 className="body-text">I tested the prototype on the original interviewees and found <span className="text-bold">three actionable insights.</span> Users felt underwhelmed by the Community page:</h5>
                 <h5 className="body-text"><span role="img" aria-label="hi">🤯</span> The Navbar had too many elements and the “Overview” subheading was redundant </h5>
