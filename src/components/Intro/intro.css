@@ -18,7 +18,7 @@
 }
 
 .text-container{
-    width: 50vw; 
+    width: 60vw; 
     padding-bottom: 3.3rem; 
 }
 
@@ -29,6 +29,13 @@
 .scroll-below{
     text-align: center;
     color: var(--color-secondary); 
+}
+
+.typing{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--color-secondary);
 }
 
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ==================  */ 

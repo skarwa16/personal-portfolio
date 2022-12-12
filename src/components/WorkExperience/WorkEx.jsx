@@ -1,7 +1,8 @@
 import React from 'react'; 
 import './workex.css';
 import BeauMondeBanner from '../../assets/BeauMonde/Banner.png'; 
-import BarsaatBanner from '../../assets/Barsaat/PortfolioImages/banner.png'; 
+import BarsaatBanner from '../../assets/Barsaat/PortfolioImages/banner.png';
+import CampfireBanner from '../../assets/Campfire/banner.png' 
 
 const WorkEx = () => {
   return(
@@ -23,9 +24,9 @@ const WorkEx = () => {
           </div>
           <div className="row-1">
             <div className="image-container">
-            <a href="/campfire"><img src={BarsaatBanner} alt="Campfire Banner"></img>
+            <a href="/campfire"><img src={CampfireBanner} alt="Campfire Banner"></img>
               <h2 className="image-child project-heading">Campfire</h2>
-              <h4 className="image-child project-description">Redesigning BeauMonde Towers’ Website</h4></a>
+              <h4 className="image-child project-description">Iterative Design Assignment for Campfire, a Y Combinator start-up</h4></a>
             </div>
             <div className="image-container">
               <img src={BarsaatBanner} alt="Web Control of Real Time Systems"></img>

@@ -6,6 +6,16 @@ import FinalFrame from '../../../assets/Barsaat/PortfolioImages/bottom.png'
 import Competitve from '../../../assets/Barsaat/PortfolioImages/competitive.png'
 import Wireframes from '../../../assets/Barsaat/PortfolioImages/wireframing.png'
 import Card from '../../../../node_modules/@mui/material/Card'
+import Iteration1_1 from '../../../assets/Barsaat/PortfolioImages/iteration1-1.gif'
+import Iteration1_2 from '../../../assets/Barsaat/PortfolioImages/iteration1-2.gif'
+import Iteration1_3 from '../../../assets/Barsaat/PortfolioImages/iteration1-3.gif'
+import Iteration2_1 from '../../../assets/Barsaat/PortfolioImages/iteration2-1.gif'
+import Iteration2_2 from '../../../assets/Barsaat/PortfolioImages/iteration2-2.gif'
+import Iteration2_3 from '../../../assets/Barsaat/PortfolioImages/iteration2-3.gif'
+import Iteration2_4 from '../../../assets/Barsaat/PortfolioImages/iteration2-4.gif'
+import Iteration2_5 from '../../../assets/Barsaat/PortfolioImages/iteration2-5.gif'
+import Iteration3_1 from '../../../assets/Barsaat/PortfolioImages/iteration3-1.gif'
+
 
 function Barsaat() {
 
@@ -162,7 +172,11 @@ function Barsaat() {
                 </div>
 
                 <h2 className="section-header">Final Designs</h2>
-                {/* add a button to navigate to live prototype */}
+                
+                <div className="prototype-holder">
+                    <h5>Check out the Final Prototype here!</h5>
+                    <a href="https://www.figma.com/proto/UyBISQTWQbDCie5vdT3kI1/Barsaat-Website?node-id=374%3A1114&page-id=374%3A1113&scaling=scale-down&starting-point-node-id=374%3A1114&viewport=328%2C548%2C0.15"><button className="btn">Live High-Fi Prototype</button></a>
+                </div>
 
                 <h2 className="section-header">Process</h2>
                 <h3 className="section-sub-header">Wireframing & Testing</h3>
@@ -174,7 +188,13 @@ function Barsaat() {
                 <h5 className="body-text"><span role="img" aria-label="hi">✅</span> Goal 1: Inform potential Barsaatees</h5>
                 <h5 className="body-text"><span role="img" aria-label="hi">❌</span> Goal 2: Call-to-Action for Non-Brown University Organizations</h5>
                 <h5 className="body-text"><span role="img" aria-label="hi">❌</span> Goal 3: Create a more permanent online presence</h5>
-                {/* insert gif / video for iteration 1 */}
+                
+                <div className="gif-container">
+                    <img src={Iteration1_1} className="gif"></img>
+                    <img src={Iteration1_2} className="gif"></img>
+                    <img src={Iteration1_3} className="gif"></img>
+                </div>
+
                 <h5 className="body-text">During this stage, I hit a block. I could not fill the empty space on each page (Upcoming, Performances, Members etc.). As a result, I ended up focusing only on the UI elements instead of the UX. I realized this drew user attention away from the content to only visual design, which defeated the website's purpose. I wanted to completely change up the designs but decided to user-test them before to gain more insight into the direction in which the changes should be. Here's a summary of the feedback:</h5>
 
                 <h5 className="body-text"><span role="img" aria-label="hi">👨‍🎓</span> Members & Alumni pages did not need to be separated and could be under the same bucket.</h5>
@@ -185,7 +205,14 @@ function Barsaat() {
                 <h5 className="body-text"><span role="img" aria-label="hi">❌</span> Goal 1: Inform potential Barsaatees</h5>
                 <h5 className="body-text"><span role="img" aria-label="hi">✅</span> Goal 2: Call-to-Action for Non-Brown University Organizations</h5>
                 <h5 className="body-text"><span role="img" aria-label="hi">✅</span> Goal 3: Create a more permanent online presence</h5>
-                {/* insert gif / video for iteration 1 */}
+                
+                <div className="gif-container">
+                    <img src={Iteration2_1} className="gif"></img>
+                    <img src={Iteration2_2} className="gif"></img>
+                    <img src={Iteration2_3} className="gif"></img>
+                    <img src={Iteration2_4} className="gif"></img>
+                    <img src={Iteration2_5} className="gif"></img>
+                </div>
 
                 <h5 className="body-text">I incorporated user feedback and instinct in the second iteration to completely change the designs. Instead of a darker color palette, I chose a semi-pastel one complementing Barsaat's logo. Instead of a separate-page layout, I transferred most of the information onto the landing page - only separating the "For Fun!" page. I felt much more confident with the second iteration and tested them on the same people as the first one. Here's a summary of the findings..</h5>
                 <h5 className="body-text"><span role="img" aria-label="hi">🎯</span> There should be more than one way to access information about auditions instead of only through the About section.</h5>
@@ -196,7 +223,10 @@ function Barsaat() {
                 <h5 className="body-text"><span role="img" aria-label="hi">✅</span> Goal 2: Community page highlighting BeauMonde’s “it” factor</h5>
                 <h5 className="body-text"><span role="img" aria-label="hi">✅</span> Goal 3: Accessible Availabilities section</h5>
                 <h5 className="body-text">In the third iteration, I wanted to focus on the Auditions section for prospective Barsaatees. It is essential to display a timeline as Barsaat auditions occur twice an academic year. I also wanted to highlight the audition process to provide complete transparency. But, I wanted to do so in a relaxed manner to avoid creating a "serious/intimidating" vibe.</h5>
-                {/* insert gif / video for iteration 1 */}
+                
+                <div className="gif-container">
+                    <img src={Iteration3_1} className="gif"></img>
+                </div>
 
                 <h2 className="section-header">What's Next?</h2>
                 <h3 className="section-sub-header">Currently Working On</h3>

@@ -5,6 +5,9 @@ import BeauMondeResearch from '../../../assets/BeauMonde/Research.png'
 import BeauMondeBeforevAfter from '../../../assets/BeauMonde/beforevafter.png'
 import BeauMondeFinalFrame from '../../../assets/BeauMonde/FinalFrame.png'
 import BeauMondeLogos from '../../../assets/BeauMonde/Logos.png'
+import Iteration1_1 from '../../../assets/BeauMonde/iteration1-1.gif'
+import Iteration1_2 from '../../../assets/BeauMonde/iteration1-2.gif'
+import Iteration2 from '../../../assets/BeauMonde/iteration2.gif'
 import Iteration3 from '../../../assets/BeauMonde/final.gif'
 import Card from '../../../../node_modules/@mui/material/Card'
 
@@ -190,7 +193,13 @@ function BeauMonde() {
                 </div>
 
                 <h2 className="section-header">Final Designs</h2>
+                
                 <img src={BeauMondeBeforevAfter} className="content-images"></img>
+
+                <div className="prototype-holder">
+                    <h5>Check out the Final Prototype here!</h5>
+                    <a href="https://www.figma.com/proto/L7lVxQ1h1CndQ9mn28uLD0/BeauMonde-Towers-Redesign?page-id=15%3A223&node-id=43%3A160&viewport=275%2C95%2C0.1&scaling=scale-down&starting-point-node-id=43%3A160"><button className="btn">Live High-Fi Prototype</button></a>
+                </div>
 
                 <h2 className="section-header">Process</h2>
                 <h3 className="section-sub-header">Wireframing & Testing</h3>
@@ -201,12 +210,12 @@ function BeauMonde() {
                 <h5 className="body-text"><span role="img" aria-label="hi">✅</span> Goal 1: Visual, descriptive & easy-to-use Amenities section</h5>
                 <h5 className="body-text"><span role="img" aria-label="hi">❌</span> Goal 2: Community page highlighting BeauMonde’s “it” factor</h5>
                 <h5 className="body-text"><span role="img" aria-label="hi">❌</span> Goal 3: Accessible Availabilities section</h5>
-                        
+                
                 <div className="gif-container">
-                    <img src={Iteration3} className="gif"></img>
+                    <img src={Iteration1_1} className="gif"></img>
+                    <img src={Iteration1_2} className="gif"></img>
                 </div>
                 
-                {/* insert gif / video for iteration 1 */}
                 <h5 className="body-text">I tested the prototype on the original interviewees and found <span className="text-bold">three actionable insights.</span> Users felt underwhelmed by the Community page:</h5>
                 <h5 className="body-text"><span role="img" aria-label="hi">🤯</span> The Navbar had too many elements and the “Overview” subheading was redundant </h5>
                 <h5 className="body-text"><span role="img" aria-label="hi">❓</span> Users were confused with the landing page image and thought some text would help connect the image to BeauMonde</h5>
@@ -216,7 +225,11 @@ function BeauMonde() {
                 <h5 className="body-text"><span role="img" aria-label="hi">✅</span> Goal 1: Visual, descriptive & easy-to-use Amenities section</h5>
                 <h5 className="body-text"><span role="img" aria-label="hi">❌</span> Goal 2: Community page highlighting BeauMonde’s “it” factor</h5>
                 <h5 className="body-text"><span role="img" aria-label="hi">✅</span> Goal 3: Accessible Availabilities section</h5>
-                {/* insert gif / video for iteration 1 */}
+                
+                <div className="gif-container">
+                    <img src={Iteration2} className="gif"></img>
+                </div>
+                
                 <h5 className="body-text">I worked towards Goal 3 in the second design iteration. Same as the first one, I tested the prototype on the original interviewees and found <span className="text-bold">two actionable insights.</span> Users found the imbedded availabilities section much easier to use.</h5>
                 <h5 className="body-text"><span role="img" aria-label="hi">↔️</span> Users couldn’t immediately make the connection between the Life@Beau title and the events displayed</h5>
                 <h5 className="body-text"><span role="img" aria-label="hi">❓</span> Overall, they felt confused by the events section. They wanted more information / images to create a clearer picture about the community</h5>
@@ -226,7 +239,10 @@ function BeauMonde() {
                 <h5 className="body-text"><span role="img" aria-label="hi">✅</span> Goal 2: Community page highlighting BeauMonde’s “it” factor</h5>
                 <h5 className="body-text"><span role="img" aria-label="hi">✅</span> Goal 3: Accessible Availabilities section</h5>
                 <h5 className="body-text">In the third iteration, I wanted to focus on the Community Page. To make the page more personable, I decided to rename it as “Life@Beau.” To keep design consistent across the different pages, I added a background image to the Community page. This added more life and insight to the page.</h5>
-                {/* insert gif / video for iteration 1 */}
+                
+                <div className="gif-container">
+                    <img src={Iteration3} className="gif"></img>
+                </div>
 
                 <h2 className="section-header">What's Next?</h2>
                 <h3 className="section-sub-header">Currently Working On</h3>

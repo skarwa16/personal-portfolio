@@ -1,12 +1,25 @@
 import React from 'react'; 
 import './intro.css';
+import Type from '../TypingEffect/Type.jsx'
+import Typewriter from 'typewriter-effect';
 
 const Intro = () => {
   return(
       <section className="introduction introduction-container">
           <div className="text-container">
             <h1 className="text-child"><span role="img" aria-label="hi">👋🏻</span> Hi! I'm Soumya!</h1>
-            <h2 className="text-child">I'm a Product Designer passionate about creating intuitive, engaging solutions</h2>
+            <h2 className="text-child">I'm a 
+            <div className="typing">
+              <Typewriter options={{
+              strings: ['Product Designer', 'Front-End Developer', 'Product Manager'],
+              autoStart: true,
+              loop: true,
+              delay: 100, 
+              pauseFor: 3500
+              }}
+              />
+            </div>
+            passionate about creating intuitive, engaging solutions</h2>
             <h2 className="text-child">Currently, I'm a senior <span style={{color: 'var(--color-secondary)'}}>@Brown University </span> studying Applied Mathematics-Computer Science looking for my next opportunity! </h2>
           </div>
           <div className="scroll-below introduction-child">

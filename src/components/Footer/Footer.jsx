@@ -17,7 +17,7 @@ const Footer = () => {
       <section className="footer footer-container">
         <div className="footer-section-container">
           <div className="footer-section">
-            <a href={location}><h5 className="title">See all Work <span role="img" aria-label="hi">↗️</span></h5></a>
+            <a href="/"><h5 className="title">See all Work <span role="img" aria-label="hi">↗️</span></h5></a>
             <a href="/about"><h5 className="title">About <span role="img" aria-label="hi">↗️</span></h5></a>
             <h5 className="description"><span role="img" aria-label="hi">©️</span> Soumya Karwa. All Rights Reserved</h5>
           </div>

@@ -19,7 +19,7 @@ const Navbar = () => {
         <a href="/"><h1 className="left-align"> Soumya Karwa</h1></a>
         <div className="nav-elements">
           <a href="/about"><h3>About</h3></a>
-          <a href={location}><h3>Work</h3></a>
+          <a href='/'><h3>Work</h3></a>
         </div>  
       </div>
     </div>
