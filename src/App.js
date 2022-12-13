@@ -9,7 +9,7 @@ import Barsaat from "./components/Projects/Barsaat/Barsaat"
 import Campfire from "./components/Projects/Campfire/Campfire"
 
 function App() {
-  
+  //Blah
   let component 
   switch(window.location.pathname){
     case"/":
