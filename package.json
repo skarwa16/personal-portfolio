@@ -1,6 +1,5 @@
 {
   "name": "react-website",
-  "homepage": "http://soumya-karwa.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
