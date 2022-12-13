@@ -3,6 +3,7 @@ import './workex.css';
 import BeauMondeBanner from '../../assets/BeauMonde/Banner.png'; 
 import BarsaatBanner from '../../assets/Barsaat/PortfolioImages/banner.png';
 import CampfireBanner from '../../assets/Campfire/banner.png' 
+import WebControlBanner from '../../assets/WebControl/banner.png'
 
 const WorkEx = () => {
   return(
@@ -29,9 +30,9 @@ const WorkEx = () => {
               <h4 className="image-child project-description">Iterative Design Assignment for Campfire, a Y Combinator start-up</h4></a>
             </div>
             <div className="image-container">
-              <img src={BarsaatBanner} alt="Web Control of Real Time Systems"></img>
+            <a href="/webControl"><img src={WebControlBanner} alt="Web Control of Real Time Systems"></img>
               <h2 className="image-child project-heading">Web Control of Real Time Systems</h2>
-              <h4 className="image-child project-description">Redesigning BeauMonde Towers’ Website</h4>
+              <h4 className="image-child project-description">Creating a Web application that facilitates two-way communication with Raspberry Pis on Mako Servers</h4></a>
             </div>
           </div>
         </div>

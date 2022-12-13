@@ -29,8 +29,8 @@ const Footer = () => {
               </div>
               <div>
                 <h5 className="title">Connect</h5>
-                <h5 className="description">Resume</h5>
-                <h5 className="description">LinkedIn</h5>
+                <a href="https://drive.google.com/file/d/1hCYK1rABXUw7QC70tVZ258EQmwKWBcKK/view"><h5 className="description">Resume <span role="img" aria-label="hi">↗️</span></h5></a>
+                <a href="https://www.linkedin.com/in/soumyakarwa/"><h5 className="description">LinkedIn <span role="img" aria-label="hi">↗️</span></h5></a>
               </div>
             </div>
           </div>

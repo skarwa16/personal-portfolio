@@ -37,14 +37,12 @@
 .project-title{
     font-family: "Source Sans Pro", sans-serif;
     font-weight: bolder; 
-    font-size: 3rem;
 }
 
 .subtitle{
     margin-top: 1.25rem;
     font-family: "Source Sans Pro", sans-serif;
     font-weight: 400; 
-    font-size: 2.5rem;
 }
 
 .role{
@@ -52,7 +50,7 @@
     display: flex; 
     flex-wrap: wrap; 
     /* flex-direction: row;  */
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-self: center; 
     gap: 3rem;
 }
@@ -65,8 +63,9 @@
     flex-direction: column; 
     background-color: var(--color-primary);
     color: var(--color-white); 
-    width: 20%;
+    width: 40%;
     padding: 1rem;  
+    align-items: center;
 }
 
 .problem{
@@ -80,7 +79,7 @@
 }
 
 .icons{
-    font-size: 2.8rem;
+    font-size: 2.3rem;
     text-align: center;
     display:flex; 
     justify-content: center;
@@ -104,28 +103,28 @@
 
 .section-header{
     margin-top: 4rem; 
-    font-size: 2.5rem; 
+    /* font-size: 2.5rem;  */
     font-family: "Source Sans Pro", sans-serif; 
     font-weight: 700; 
 }
 
 .section-sub-header{
     margin-top: 2rem; 
-    font-size: 2.3rem;
+    /* font-size: 2.3rem; */
     font-family: "Source Sans Pro", sans-serif; 
     font-weight: 400; 
 }
 
 .section-sub-sub-header{
     margin-top: 2rem; 
-    font-size: 2.1rem;
+    /* font-size: 2.1rem; */
     font-family: "Source Sans Pro", sans-serif; 
     font-weight: 400; 
     font-style: italic;
 }
 
 .section-sub-sub-sub-header{
-    font-size: 1.9rem;
+    /* font-size: 1.9rem; */
     font-family: "Ubuntu", sans-serif; 
     font-weight: 400; 
 }
@@ -219,9 +218,7 @@
     padding-left: 0.65rem; 
     padding-right: 0.65rem; 
     display: flex;
-    align-items: center; 
     flex-direction: column;
-    /* text-align: center; */
     width: 100%; 
 }
 
@@ -237,6 +234,7 @@
     display: flex;
     gap: 1rem; 
     justify-content: center;
+    align-items: center;
 } 
 
 .interview-container{

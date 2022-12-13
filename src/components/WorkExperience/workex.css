@@ -25,7 +25,7 @@
 
 .image-container{
     height:100%;
-    width: 45vw;
+    width: 40vw;
     display: flex;  
     flex-direction: column;
     flex-wrap: wrap;
@@ -34,7 +34,7 @@
 .row-1{
     display: flex;
     flex-direction: row; 
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .image-child{
@@ -67,6 +67,10 @@
         flex-direction: column;
         align-items: center;
         gap: 1rem;
+    }
+
+    .image-container{
+        margin-top: 1.5rem;
     }
   
 }

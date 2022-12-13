@@ -89,11 +89,11 @@ function BeauMonde() {
                 <h5 className="body-text">I interviewed seven people - five residents and two potential residents. Among the current residents, I interviewed people of various ages (16-50 years) to gauge insights about multiple requirements and interests for the website.</h5>
                 <div className="columns-container">
                     <div className="columns-content">
-                        <h5 className="column-heading">Residents</h5>
+                        <h5 className="column-heading"><span className="icons" role="img" aria-label="hi">🧑‍🤝‍🧑</span>Residents</h5>
                         <h5 className="column-text">They want a contact management section to formally speak to committee members to organize events or raise concerns. They would also like visual aids like images and icons to support amenities and events, as the current solution does not have any.</h5>
                     </div>
                     <div className="columns-content">
-                        <h5 className="column-heading">Non-Residents</h5>
+                        <h5 className="column-heading"><span className="icons" role="img" aria-label="hi">👀</span>Non-Residents</h5>
                         <h5 className="column-text">They want to differentiate between apartments available for rent and purchase while including the apartments’ available dates. They want to see a separate section for amenities with visual aid and want a feel of what it would be like to be a resident of BeauMonde. They also want to know the building's location advantages.</h5>
                     </div>
                 </div>

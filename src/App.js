@@ -7,9 +7,10 @@ import Footer from "./components/Footer/Footer"
 import BeauMonde from "./components/Projects/BeauMonde/BeauMonde"
 import Barsaat from "./components/Projects/Barsaat/Barsaat"
 import Campfire from "./components/Projects/Campfire/Campfire"
+import WebControl from "./components/Projects/WebControl/WebControl"
 
 function App() {
-  //Blah
+
   let component 
   switch(window.location.pathname){
     case"/":
@@ -25,8 +26,11 @@ function App() {
     case "/barsaat":
       component = <Barsaat/>
       break
-      case "/campfire":
+    case "/campfire":
       component = <Campfire/>
+      break
+    case "/webControl":
+      component = <WebControl/>
       break
   }
 

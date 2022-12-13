@@ -6,9 +6,7 @@ import Sketch2 from "../../../assets/Campfire/sketch2.png"
 import Sketch3 from "../../../assets/Campfire/sketch3.png"
 import Sketch4 from "../../../assets/Campfire/sketch4.png"
 import Banner from '../../../assets/Campfire/banner.png'
-import Research from '../../../assets/Barsaat/PortfolioImages/interviews.png'
 import FinalFrame from '../../../assets/Campfire/finalframe.png'
-import Competitve from '../../../assets/Barsaat/PortfolioImages/competitive.png'
 import Wireframes from '../../../assets/Campfire/wireframes.png'
 import Card from '../../../../node_modules/@mui/material/Card'
 import Iteration1_1 from '../../../assets/Campfire/iteration1-1.gif'
@@ -120,31 +118,36 @@ function Campfire() {
                     <div className="feedback-slide">
                         <h5 className="section-sub-sub-sub-header">Screen 1</h5>
                         <img src={Feedback1_1} className="feedback-image"></img>
-                        <h5 className="body-text">  Make the background less hectic as it's distracting and makes the pages busy and confusing.</h5>
-                        <h5 className="body-text">It wasn't clear what an actual Campfire was until reaching the Video screen - providing information or a tagline on the Landing Page would reduce confusion.</h5>
+                        <div>
+                            <h5 className="body-text"><span role="img" aria-label="hi">😵‍💫 </span> Make the background less hectic as it's distracting and makes the pages busy and confusing.</h5>
+                            <h5 className="body-text"><span role="img" aria-label="hi">🔥 </span>It wasn't clear what an actual Campfire was until reaching the Video screen - providing information or a tagline on the Landing Page would reduce confusion.</h5>
+                        </div>
                     </div>
                     <div className="feedback-slide">
                         <h5 className="section-sub-sub-sub-header">Screen 2</h5>
                         <img src={Feedback1_2} className="feedback-image"></img>
-                        <h5 className="body-text"> There is no distinction between the sign up/sign in section which interrupts the user's mental model.</h5>
+                        <h5 className="body-text"> <span role="img" aria-label="hi">📤 </span>There is no distinction between the sign up/sign in section which interrupts the user's mental model.</h5>
                     </div><div className="feedback-slide">
                         <h5 className="section-sub-sub-sub-header">Screen 3</h5>
                         <img src={Feedback1_3} className="feedback-image"></img>
-                        <h5 className="body-text"> The structure of the fire-up page seems like Users are supposed to choose between Streaming/Games/Music before pressing next, so having a radio button or would help.</h5>
+                        <h5 className="body-text"> <span role="img" aria-label="hi">👾 </span>The structure of the fire-up page seems like Users are supposed to choose between Streaming/Games/Music before pressing next, so having a radio button or would help.</h5>
                     </div><div className="feedback-slide">
                         <h5 className="section-sub-sub-sub-header">Screen 4</h5>
                         <img src={Feedback1_4} className="feedback-image"></img>
-                        <h5 className="body-text">  The background and foreground colors are very similar which makes the hiearchy confusing. Changing to a different color on either would be helpful.</h5>
-                        <h5 className="body-text">Adding some type of search bar/filtering system during the game choosing since scrolling through each option would be tedious.</h5>
+                        <h5 className="body-text"><span role="img" aria-label="hi">🟥 </span>The background and foreground colors are very similar which makes the hiearchy confusing. Changing to a different color on either would be helpful.</h5>
+                        <h5 className="body-text"><span role="img" aria-label="hi">🔎 </span>Adding some type of search bar/filtering system during the game choosing since scrolling through each option would be tedious.</h5>
                     </div>
                     <div className="feedback-slide">
                         <h5 className="section-sub-sub-sub-header">Screen 5</h5>
                         <img src={Feedback1_5} className="feedback-image"></img>
-                        <h5 className="body-text"> Campfire logo button is placed in a different position than every other screen.</h5>
-                        <h5 className="body-text">Putting the chat button directly in thee chat box or using a different symbol since it's confusing about whether it's to toggle the chat or for some other purpose.</h5>
-                        <h5 className="body-text">Use appropriate grouping to make it clear what icons align with: move the mute and video panel closer to the panel with the call and move the emoji panel near the game.</h5>
-                        <h5 className="body-text">Add a technique to resize/minimize the chats, as it feels like a large portion of the screen for no reason.</h5>
+                        <div>
+                            <h5 className="body-text"><span role="img" aria-label="hi">🪵 </span>Campfire logo button is placed in a different position than every other screen.</h5>
+                            <h5 className="body-text"><span role="img" aria-label="hi">💬 </span>Putting the chat button directly in thee chat box or using a different symbol since it's confusing about whether it's to toggle the chat or for some other purpose.</h5>
+                            <h5 className="body-text"><span role="img" aria-label="hi">🔇 </span>Use appropriate grouping to make it clear what icons align with: move the mute and video panel closer to the panel with the call and move the emoji panel near the game.</h5>
+                            <h5 className="body-text"><span role="img" aria-label="hi">🔍 </span>Add a technique to resize/minimize the chats, as it feels like a large portion of the screen for no reason.</h5>
+                        </div>
                     </div>
+                        
                 </div>
 
 
