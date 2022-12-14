@@ -297,11 +297,13 @@
 }
 
 .prototype-holder{
+    margin-top: 1.5rem;
     display: flex;
     flex-direction: column; 
     justify-content: center;
     align-items: center; 
     gap: 1rem;
+    text-align: center;
 }
 
 
@@ -347,6 +349,14 @@
     .interview-row{
         flex-direction: column;
         gap: 0rem;
+    }
+
+    .gif{
+        width: 100%;
+    }
+
+    .feedback-image{
+        width: 100%;
     }
 
 } 

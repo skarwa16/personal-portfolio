@@ -17,3 +17,17 @@
     width: 48%; 
     gap: 1rem;
 }
+
+/* ================ MEDIA QUERIES (MEDIUM DEVICES) ==================  */ 
+ 
+@media screen and (max-width: 1024px){
+
+    .campfire-image-container{
+        justify-content: center;
+    }
+
+    .campfire-column{
+        width: 100%
+    }
+
+}

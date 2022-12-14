@@ -142,7 +142,7 @@ function Campfire() {
                         <img src={Feedback1_5} className="feedback-image"></img>
                         <div>
                             <h5 className="body-text"><span role="img" aria-label="hi">🪵 </span>Campfire logo button is placed in a different position than every other screen.</h5>
-                            <h5 className="body-text"><span role="img" aria-label="hi">💬 </span>Putting the chat button directly in thee chat box or using a different symbol since it's confusing about whether it's to toggle the chat or for some other purpose.</h5>
+                            <h5 className="body-text"><span role="img" aria-label="hi">💬 </span>Putting the chat button directly in the chat box or using a different symbol since it's confusing about whether it's to toggle the chat or for some other purpose.</h5>
                             <h5 className="body-text"><span role="img" aria-label="hi">🔇 </span>Use appropriate grouping to make it clear what icons align with: move the mute and video panel closer to the panel with the call and move the emoji panel near the game.</h5>
                             <h5 className="body-text"><span role="img" aria-label="hi">🔍 </span>Add a technique to resize/minimize the chats, as it feels like a large portion of the screen for no reason.</h5>
                         </div>

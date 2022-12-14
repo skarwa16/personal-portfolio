@@ -78,7 +78,7 @@ function BeauMonde() {
                 </div>
 
                 <h3 className="section-sub-header">Challenge</h3>
-                <h5 className="body-text">BeauMonde's current website has too much repetitive, poorly organized content. It is hard to discern information about the building's amenities or available apartments as content is densely populated on the landing page but is not categorized. There is also no mention of the community BeauMonde offers.BeauMonde's current website has too much repetitive, poorly organized content. It is hard to discern information about the building's amenities or available apartments as content is densely populated on the landing page but is not categorized. There is also no mention of the community BeauMonde offers.</h5>
+                <h5 className="body-text">BeauMonde's current website has too much repetitive, poorly organized content. It is hard to discern information about the building's amenities or available apartments as content is densely populated on the landing page but is not categorized. There is also no mention of the community BeauMonde offers.</h5>
 
                 <h3 className="section-sub-header">Objective</h3>
                 <h5 className="body-text">How can I create a seamless process for users to gain information and contact management about Beaumonde's amenities, community and available apartments while improving the building's digital presence?</h5>
