@@ -44,12 +44,12 @@
 }
 
 .project-heading{
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: var(--font-primary);
     font-weight: bold;
 }
 
 .project-description{
-    font-family: "Ubuntu", sans-serif;
+    font-family: var(--font-secondary);
     font-weight: 300;
 }
 

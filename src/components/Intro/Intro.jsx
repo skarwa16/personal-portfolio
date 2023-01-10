@@ -1,6 +1,5 @@
 import React from 'react'; 
 import './intro.css';
-import Type from '../TypingEffect/Type.jsx'
 import Typewriter from 'typewriter-effect';
 
 const Intro = () => {

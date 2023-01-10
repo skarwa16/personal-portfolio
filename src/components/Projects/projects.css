@@ -35,13 +35,13 @@
 }
 
 .project-title{
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: var(--font-primary);
     font-weight: bolder; 
 }
 
 .subtitle{
     margin-top: 1.25rem;
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: var(--font-primary);
     font-weight: 400; 
 }
 
@@ -104,49 +104,49 @@
 .section-header{
     margin-top: 4rem; 
     /* font-size: 2.5rem;  */
-    font-family: "Source Sans Pro", sans-serif; 
+    font-family: var(--font-primary); 
     font-weight: 700; 
 }
 
 .section-sub-header{
     margin-top: 2rem; 
     /* font-size: 2.3rem; */
-    font-family: "Source Sans Pro", sans-serif; 
+    font-family: var(--font-primary); 
     font-weight: 400; 
 }
 
 .section-sub-sub-header{
     margin-top: 2rem; 
     /* font-size: 2.1rem; */
-    font-family: "Source Sans Pro", sans-serif; 
+    font-family: var(--font-primary); 
     font-weight: 400; 
     font-style: italic;
 }
 
 .section-sub-sub-sub-header{
     /* font-size: 1.9rem; */
-    font-family: "Ubuntu", sans-serif; 
+    font-family: var(--font-secondary); 
     font-weight: 400; 
 }
 
 .body-text{
     margin-top: 2rem; 
     /* font-size: 2rem;  */
-    font-family: "Ubuntu", sans-serif; 
+    font-family: var(--font-secondary); 
     font-weight: 300;
 }
 
 .column-heading{
     margin-top: 3rem; 
     /* font-size: 2rem;  */
-    font-family: "Ubuntu", sans-serif; 
+    font-family: var(--font-secondary); 
     font-weight: 500;
     text-align: center;
 }
 
 .column-text{
     /* font-size: 2rem;  */
-    font-family: "Ubuntu", sans-serif; 
+    font-family: var(--font-secondary);  
     font-weight: 300;
 }
 

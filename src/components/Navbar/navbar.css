@@ -26,10 +26,10 @@
     display:flex;
     gap: 2rem;
     font-weight: lighter;
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: var(--font-primary);
 }
 
 .left-align{
     font-weight: 500;
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: var(--font-primary);
 }

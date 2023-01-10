@@ -1,5 +1,5 @@
 .about{
-    font-family: "Source Sans Pro", sans-serif; 
+    font-family: var(--font-primary); 
     height: 100vh; 
     width: 100vw;
     padding-top: 3rem; 
@@ -26,12 +26,14 @@
 
 .about-text{
     margin-top: 2rem;
-    font-family: "Ubuntu", sans-serif; 
+    font-family: var(--font-secondary); 
     font-weight: 300; 
 }
 
 .about-heading{
     margin-top: 1.2rem;
+    font-weight: bold;
+    color: var(--color-primary-variant);
 }
 
 .text-italics{

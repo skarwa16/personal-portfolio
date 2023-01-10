@@ -1,5 +1,5 @@
 .introduction{
-    font-family: "Source Sans Pro", sans-serif; 
+    font-family: var(--font-primary); 
     height: 100vh; 
     width: 100vw;
     padding-top: 3rem; 
@@ -32,7 +32,7 @@
 }
 
 .typing{
-    font-family: "Ubuntu", sans-serif;
+    font-family: var(--font-secondary);
     font-size: 2.7rem;
     font-weight: 600;
     color: var(--color-primary-variant);
