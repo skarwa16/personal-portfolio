@@ -20,7 +20,6 @@ function App() {
       component = <About/>
       break
     case "/beaumonde":
-      console.log("BeauMonde")
       component = <BeauMonde/>
       break
     case "/barsaat":
