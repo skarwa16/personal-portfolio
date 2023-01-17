@@ -10,7 +10,7 @@ const Intro = () => {
             <h2 className="text-child">I'm a 
             <div className="typing">
               <Typewriter options={{
-              strings: ['Product Designer', 'Front-End Developer', 'Product Manager'],
+              strings: ['Product Designer', 'Product Manager'],
               autoStart: true,
               loop: true,
               delay: 75, 

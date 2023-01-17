@@ -29,7 +29,11 @@
     display: flex;  
     flex-direction: column;
     flex-wrap: wrap;
-}
+}   
+
+/* .image-container:hover {
+    background: var(--color-bg-variant);
+} */
 
 .row-1{
     display: flex;
