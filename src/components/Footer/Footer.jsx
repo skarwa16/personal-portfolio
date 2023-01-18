@@ -20,9 +20,12 @@ const Footer = () => {
     case "/webControl":
       location = "/"
       break
-      case "/":
-        location = "#workEx"
-        break
+    case "/beatly":
+      location = "/"
+      break
+    case "/":
+      location = "#workEx"
+      break
   }
   
   return(

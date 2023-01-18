@@ -5,7 +5,7 @@ import Sketch1 from "../../../assets/Campfire/sketch1.png"
 import Sketch2 from "../../../assets/Campfire/sketch2.png"
 import Sketch3 from "../../../assets/Campfire/sketch3.png"
 import Sketch4 from "../../../assets/Campfire/sketch4.png"
-import Banner from '../../../assets/Campfire/banner.png'
+import Banner from '../../../assets/Campfire/project-banner.png'
 import FinalFrame from '../../../assets/Campfire/finalframe.png'
 import Wireframes from '../../../assets/Campfire/wireframes.png'
 import Card from '../../../../node_modules/@mui/material/Card'
