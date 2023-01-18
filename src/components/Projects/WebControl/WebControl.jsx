@@ -31,8 +31,10 @@ function WebControl() {
                     color: 'var(--color-white)'}}
                     className={"role-items"}>
                         <h4>Team</h4>
-                        <h5 className="role-content">Developers: Jackie Jia, Josue Cruz, Ken Ngamprasertsith</h5>
-                        <h5 className="role-content">UX/UI Designer: Melody Yu</h5>
+                        <h5 className="role-content">Jackie Jia</h5>
+                        <h5 className="role-content">Josue Cruz</h5>
+                        <h5 className="role-content">Ken Ngamprasertsith</h5>
+                        <h5 className="role-content">Melody Yu</h5>
                     </Card>
                     <Card sx={{backgroundColor: 'var(--color-primary)', 
                     color: 'var(--color-white)'}}
@@ -40,6 +42,8 @@ function WebControl() {
                         <h4>Skills</h4>
                         <h5 className="role-content">UX/UI Design</h5>
                         <h5 className="role-content">Product Research</h5>
+                        <h5 className="role-content">Figma</h5>
+                        <h5 className="role-content">Lua Frameworks</h5>
                         <h5 className="role-content">Full Stack at Brown</h5>
                     </Card>
                 </div>

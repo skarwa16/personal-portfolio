@@ -60,7 +60,8 @@ function Campfire() {
                     className={"role-items"}>
                         <h4>Skills</h4>
                         <h5 className="role-content">UX/UI Design</h5>
-                        <h5 className="role-content">UX Research</h5>
+                        <h5 className="role-content">Figma</h5>
+                        <h5 className="role-content">User Testing</h5>
                         <h5 className="role-content">Class Assignment</h5>
                     </Card>
                 </div>

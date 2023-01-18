@@ -44,7 +44,7 @@ function BeauMonde() {
                     className={"role-items"}>
                         <h4>Skills</h4>
                         <h5 className="role-content">UX/UI Design</h5>
-                        <h5 className="role-content">UX Research</h5>
+                        <h5 className="role-content">Figma</h5>
                         <h5 className="role-content">Contract</h5>
                     </Card>
                 </div>
