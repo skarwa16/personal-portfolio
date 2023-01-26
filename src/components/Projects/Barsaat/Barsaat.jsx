@@ -174,8 +174,8 @@ function Barsaat() {
                 <h2 className="section-header">Final Designs</h2>
                 
                 <div className="prototype-holder">
-                    <h5>Check out the Final Prototype here!</h5>
-                    <a href="https://www.figma.com/proto/UyBISQTWQbDCie5vdT3kI1/Barsaat-Website?node-id=374%3A1114&page-id=374%3A1113&scaling=scale-down&starting-point-node-id=374%3A1114&viewport=328%2C548%2C0.15"><button className="btn">Live High-Fi Prototype</button></a>
+                    {/* <h5>Check out the Final Prototype here!</h5> */}
+                    <a href="https://www.figma.com/proto/UyBISQTWQbDCie5vdT3kI1/Barsaat-Website?page-id=509%3A1967&node-id=509%3A1968&viewport=356%2C363%2C0.09&scaling=scale-down&starting-point-node-id=509%3A1968"><button className="btn">Live High-Fi Prototype</button></a>
                 </div>
 
                 <h2 className="section-header">Process</h2>

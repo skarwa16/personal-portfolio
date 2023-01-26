@@ -197,8 +197,8 @@ function BeauMonde() {
                 <img src={BeauMondeBeforevAfter} className="content-images"></img>
 
                 <div className="prototype-holder">
-                    <h5>Check out the Final Prototype here!</h5>
-                    <a href="https://www.figma.com/proto/L7lVxQ1h1CndQ9mn28uLD0/BeauMonde-Towers-Redesign?page-id=15%3A223&node-id=43%3A160&viewport=275%2C95%2C0.1&scaling=scale-down&starting-point-node-id=43%3A160"><button className="btn">Live High-Fi Prototype</button></a>
+                    {/* <h5>Check out the Final Prototype here!</h5> */}
+                    <a href="https://www.figma.com/proto/L7lVxQ1h1CndQ9mn28uLD0/BeauMonde-Towers-Redesign?page-id=15%3A223&node-id=43%3A160&viewport=357%2C109%2C0.1&scaling=scale-down&starting-point-node-id=43%3A160"><button className="btn">Live High-Fi Prototype</button></a>
                 </div>
 
                 <h2 className="section-header">Process</h2>
